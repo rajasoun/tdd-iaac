@@ -49,6 +49,14 @@ The Remote Status bar item can quickly show you in which context VS Code is runn
 
 ![Remote - Containers commands](docs/images/remote-containers-commands.png)
 
+### Close Repository
+
+Clone the Repository
+
+```
+git clone https://github.com/rajasoun/tdd-iaac
+```
+
 ### Wait for the container to build
 
 The window will then reload, but since the container does not exist yet, VS Code will create one and clone the sample repository into an isolated container volume. This may take some time, and a progress notification will provide status updates. Fortunately, this step isn't necessary the next time you open the folder since the container will already exist.
