@@ -79,7 +79,7 @@ Once the container is running and you're connected. Open Terminal
 In terminal, run
 
 ```
-terraform -chdir=hello apply
+terraform -chdir=hello apply -auto-approve
 ```
 
 ### Run hello/main_test.go
