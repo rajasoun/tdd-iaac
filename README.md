@@ -62,4 +62,25 @@ Once the container is running and you're connected. Open Terminal
 ```
 .devcontainer/verify.sh 
 ```
-![Goss Validate Output](docs/images/goss-status.png)
+![Goss Validate Output](docs/images/goss-verify.png)
+
+### Run hello/main.tf
+
+In terminal, run
+
+```
+terraform -chdir=hello apply
+```
+
+### Run hello/main_test.go
+
+In terminal, run
+
+```
+make test
+```
+
+### References
+
+1. [Terratest](https://terratest.gruntwork.io/)
+1. [Terraform](https://learn.hashicorp.com/terraform)
