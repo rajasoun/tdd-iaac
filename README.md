@@ -39,6 +39,16 @@ The Remote - Containers extension lets you run Visual Studio Code inside a Docke
 
 ![Remote - Containers extension](docs/images/containers-extension.png)
 
+### Clone Repository
+
+Clone the Repository
+
+```
+git clone https://github.com/rajasoun/tdd-iaac
+cd tdd-iaac
+code .
+```
+
 ### Check installation
 
 With the Remote - Containers extension installed, you will see a new Status bar item at the far left.
@@ -48,14 +58,6 @@ With the Remote - Containers extension installed, you will see a new Status bar 
 The Remote Status bar item can quickly show you in which context VS Code is running (local or remote) and clicking on the item will bring up the Remote - Containers commands.
 
 ![Remote - Containers commands](docs/images/remote-containers-commands.png)
-
-### Close Repository
-
-Clone the Repository
-
-```
-git clone https://github.com/rajasoun/tdd-iaac
-```
 
 ### Wait for the container to build
 
