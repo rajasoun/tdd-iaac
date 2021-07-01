@@ -1,0 +1,38 @@
+---
+command:
+  go version:
+    exit-status: 0
+    stdout:
+      - "1.16.5"
+    stderr: []
+    stderr: []
+    timeout: 0
+
+  terraform --version:
+    exit-status: 0
+    stdout:
+      - "v1.0.1"
+    stderr: []
+    timeout: 0
+
+  taskctl --version:
+    exit-status: 0
+    stdout:
+      - "1.4.2"
+    stderr: []
+    timeout: 0
+
+  shellspec --version:
+    exit-status: 0
+    stdout:
+      - "0.28.1"
+    stderr: []
+    timeout: 0
+
+  gotestsum --version:
+    exit-status: 0
+    stdout:
+      - "gotestsum version dev"
+    stderr: []
+    timeout: 0
+
