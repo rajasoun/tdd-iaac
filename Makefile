@@ -15,4 +15,5 @@ help: ## This help.
 test:	## TDD Go
 	gotestsum --format testname
 
-
+terraform: ## Run Terraform 
+	terraform -chdir=hello apply -auto-approve
