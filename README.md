@@ -49,7 +49,7 @@ cd tdd-iaac
 code .
 ```
 
-> If code command not found occurs, follow steps [Launching from the command line]https://code.visualstudio.com/docs/setup/mac
+> If code command not found occurs, follow steps [Launching from the command line](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line)
 
 ### Check installation
 
