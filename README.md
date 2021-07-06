@@ -49,6 +49,8 @@ cd tdd-iaac
 code .
 ```
 
+> If code command not found occurs, follow steps [Launching from the command line]https://code.visualstudio.com/docs/setup/mac
+
 ### Check installation
 
 With the Remote - Containers extension installed, you will see a new Status bar item at the far left.
